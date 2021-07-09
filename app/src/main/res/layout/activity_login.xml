@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="26dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ic_icon"
+            android:layout_width="93dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/ic_shopping" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="24dp"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="24dp"
+            android:text="Login" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupa Password?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="180dp"/>
+
+        <TextView
+            android:id="@+id/click1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="75dp"
+            android:clickable="true"
+            android:text="Click Here"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Punya Akun?"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/click2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="75dp"
+            android:clickable="true"
+            android:text="Click Here"
+            android:textColor="@color/teal_700"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
