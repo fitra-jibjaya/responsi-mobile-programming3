@@ -1,4 +1,4 @@
-package com.example.jual_ajalah;
+package com.example.jual_ajalah.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.jual_ajalah.R;
 
 public class RecoveryActivity extends AppCompatActivity {
 
