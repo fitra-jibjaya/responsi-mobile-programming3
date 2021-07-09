@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Jual_Ajalah">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".navmenu.MainActivity"></activity>
         <activity android:name=".ui.RegisterActivity" />
         <activity android:name=".ui.RecoveryActivity" />
         <activity android:name=".ui.LoginActivity">

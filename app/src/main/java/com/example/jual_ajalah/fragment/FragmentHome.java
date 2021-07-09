@@ -1,4 +1,4 @@
-package com.example.jual_ajalah;
+package com.example.jual_ajalah.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
