@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Toast.makeText(getApplicationContext(), "Tidak valid", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getApplicationContext(), "Akun Belum Terdaftar", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             } else {
